@@ -8,17 +8,14 @@ public class Swap {
         b = c; // b=123
 
         System.out.println("a=" + a + " b=" + b);
+
+
+        //int a = 123;
+       // int b = 526;
+        a = a + b; // a=7
+        b = a - b;  // b=7-4=3
+        a = a - b;  // a=7-3=4
+        System.out.println("a=" + a + " b=" + b);
+
     }
-
 }
-
-       /* int a = 123;
-        int b = 526;
-        a = a+b; // a=7
-        b = a-b  // b=7-4=3
-        a = a-b  // a=7-3=4
-    }
-
-}
-
-        */
