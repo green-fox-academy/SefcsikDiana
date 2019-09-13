@@ -11,6 +11,6 @@ public class SecondsInADay {
         int DaySeconds = 86400;
         int remainingSconds = 86400 - 14 * 60 * 60 + 34 * 60 + 42;
         System.out.println(remainingSconds);
-        
+
     }
 }
