@@ -19,6 +19,7 @@ public class CountFromtTo {
         }
 
         //   1.                     2.               3.
+        //                2. itt mindig i, mert az i erteke a kezdoertekrol mindig 1gyel novekszik,mert a 3.ban megnoveljuk az i erteket 1gyel!!!
         for (int i = askedNumber1; i < askedNumber2; i++) {
             System.out.println(i);
         }
