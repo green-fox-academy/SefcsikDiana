@@ -2,7 +2,7 @@ public class FizzBuzz {
     public static void main(String[] args) {
         int a = 0;
         for (int i = 1; i <= 100; i++) {
-
+            //ahhoz hogy kiirja,hogy oszthato 3mal is, eloszor mindket feltetelt meg kell vizsgalni!!
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("FizzBuzz");
             } else if (i % 5 == 0) {
