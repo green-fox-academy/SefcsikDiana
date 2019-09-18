@@ -17,7 +17,7 @@ public class GotoCenter {
             // int i= 0 (kezdo ertek);
             // i<3 => feltetel, mivel 3 vonalat kell huzni minimum, ezert lehet 3 vagy barmennyi!
             // i++ => ezzel adom meg, hogy ujra visszalepjen a for loopba es csekkolja a feltetelt!
-
+            graphics.setColor(Color.MAGENTA);
             int x = random.nextInt(320);
             int y = random.nextInt(320);
 
