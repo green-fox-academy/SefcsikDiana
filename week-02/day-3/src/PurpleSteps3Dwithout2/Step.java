@@ -1,9 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
-
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class PurpleSteps3D {
+    public class Step{
     public static void mainDraw(Graphics graphics) {
         int x = 10;
         int y = 10;
@@ -18,15 +17,10 @@ public class PurpleSteps3D {
             graphics.setColor(Color.black);
             graphics.drawRect(x, y, size, size);
             // A SORREND SZAMIT!!!!!
-            // ha x,y kezdoerteket elore irom, ahogy most, akkor kirajzolja az osszes negyzetet!!
-            x += size;
-            y += size;
-
-            size += 10;
             //Ha a megcserelem, es a size+=10 irom elore, es utana x+= size; y+=size; akkor minden 2. negyzetet nem rajzolja ki, mert eloszor a size-zal eltolodik, majd jon a kezdoertek!
-            // size += 10;
-            // x += size;
-            // y += size;
+             size += 10;
+             x += size;
+             y += size;
 
 
         }
@@ -56,3 +50,4 @@ public class PurpleSteps3D {
         }
     }
 }
+
