@@ -8,7 +8,7 @@ public class DivideBy0 {
 
   public static void main(String[] args) {
     printDivisionResult(5); // itt adom meg a functionnel, a bekert szamot!!! barmire atirhatom!
-  }
+  }                       // ide csak egy szamot adok meg a zarojelen belul!!!!!!!
   public static void printDivisionResult(int input) {
     try {
       System.out.println(10 / input); // itt muszaj letrehoznom, hogy nyomtass ki a resultot a tryon belul!!!
