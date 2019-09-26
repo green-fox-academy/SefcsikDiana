@@ -7,5 +7,7 @@ public class MainSharpie {
     sharpie1.use();
     System.out.println(sharpie1.minkAmount());
     Sharpie sharpie2 = new Sharpie("yellow", 10.34F);
+    sharpie2.use();
+    sharpie1.use();
   }
 }
