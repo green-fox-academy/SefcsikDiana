@@ -50,6 +50,7 @@ public class DiceSet {
     diceSet.reroll(4);
     System.out.println(diceSet.getCurrent());
 
+    // ennyit kellett csak hozzairni!
     for (int i = 0; i < diceSet.dice.size(); i++) {
       while (diceSet.getCurrent(i) != 6) {
         diceSet.reroll(i);
