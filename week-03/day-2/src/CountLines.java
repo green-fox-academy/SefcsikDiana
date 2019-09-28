@@ -10,6 +10,7 @@ public class CountLines {
   public static void main(String[] args) {
     functionFileName("my-file.txt");
   }
+
   public static void functionFileName(String name) {
     try {
       Path filePath = Paths.get(name);
