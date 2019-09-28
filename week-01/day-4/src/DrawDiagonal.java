@@ -24,8 +24,6 @@ public class DrawDiagonal {
         }
     }
 }
-
-
 // Write a program that reads a number from the standard input, then draws a
 // square like this:
 //
