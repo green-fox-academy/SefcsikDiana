@@ -1,7 +1,6 @@
 public class DrawAChessTable {
     public static void main(String[] args) {
         int numberOfLines = 7;
-
         for (int line = 0; line <= numberOfLines; line++) {
 
             for (int column = 0; column <= numberOfLines; column++) {
