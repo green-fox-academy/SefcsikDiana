@@ -1,5 +1,5 @@
 package sharpie;
-             //Create Sharpie class
+//Create Sharpie class
 public class Sharpie {
   String color;
   float width;
@@ -8,7 +8,6 @@ public class Sharpie {
   public Sharpie(String color, float width) {
     this.color = color;
     this.width = width;
-
   }
   public void use(){
     this.inkAmount -= 10;
