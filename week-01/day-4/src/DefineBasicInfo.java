@@ -1,28 +1,20 @@
 public class DefineBasicInfo {
-    public static void main(String[] args) {
-       String name = "Diana";
-        int age = 30;
-        double height = 1.72;
-        boolean married = true;
+  public static void main(String[] args) {
 
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(height);
-        System.out.println(married);
+    //4.  Define several things as a variable then print their values
+    // Your name as a string
+    // Your age as an integer
+    // Your height in meters as a double
+    // Whether you are married or not as a boolean
 
+    String name = "Sefcsik Diana";
+    int age = 30;
+    double height = 1.74;
+    boolean familyStatus = true;
 
-    }
-
+    System.out.println("My name is " + name + ".");
+    System.out.println("My age is " + age + ".");
+    System.out.println("My height is " + height + ".");
+    System.out.println("I am married " + familyStatus + ".");
+  }
 }
-
-
-/*public class DefineBasicInfo {
-    public static void main(String[] args) {
-        // Define several things as a variable then print their values
-        // Your name as a string
-        // Your age as an integer
-        // Your height in meters as a double
-        // Whether you are married or not as a boolean
-    }
-}
- */
