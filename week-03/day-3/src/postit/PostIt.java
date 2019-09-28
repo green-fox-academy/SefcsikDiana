@@ -3,9 +3,9 @@ import java.awt.*;
 public class PostIt {
 // class Create a PostIt class that has
   Color backgroundColor;
-  //      a text on it
+  //a text on it
   String text;
-  //      a backgroundColor
+  //a backgroundColor
   Color textColor;
   public PostIt (Color backgroundColor, String text, Color textColor){
     this.backgroundColor = backgroundColor;
