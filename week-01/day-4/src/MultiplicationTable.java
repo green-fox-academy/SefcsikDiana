@@ -15,7 +15,6 @@ public class MultiplicationTable {
 /*
 // Example:
 // The number 15 should print:
-//
 // 1 * 15 = 15
 // 2 * 15 = 30
 // 3 * 15 = 45
