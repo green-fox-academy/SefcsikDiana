@@ -1,7 +1,7 @@
 public class DrawTriangle {
     public static void main(String[] args) {
         String a = "*";
-        int numberOfLines = 10;
+        int numberOfLines = 16;
 
         for (int i = 1; i <= numberOfLines; i++){
             System.out.println(a);
