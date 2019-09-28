@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class DivideBy0 {
   // Create a function that takes a number
 // divides ten with it,
