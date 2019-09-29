@@ -1,7 +1,7 @@
 public class Swapelements {
   // - Create an array variable named `abc`
-//   with the following content: `["first", "second", "third"]`
-// - Swap the first and the third element of `abc`
+  //   with the following content: `["first", "second", "third"]`
+  // - Swap the first and the third element of `abc`
   public static void main(String[] args) {
     System.out.println("The Array of abc: ");
 
