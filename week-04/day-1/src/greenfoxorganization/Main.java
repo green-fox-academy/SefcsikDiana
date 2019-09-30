@@ -55,5 +55,11 @@ public class Main {
       person.introduce();
       person.getGoal();
     }
+    Cohort awesome = new Cohort("AWESOME");
+    awesome.addStudent(student);
+    awesome.addStudent(john);
+    awesome.addMentor(mentor);
+    awesome.addMentor(gandhi);
+    awesome.info();
   }
 }
